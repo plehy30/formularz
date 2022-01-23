@@ -13,7 +13,7 @@ def login():
         password = data.get("password")
 
         if username == user['username'] and password == user["password"]:
-            return "Jesteś ty w sytemie. Wiadomość ulegnie samozniszczeniu... "
+            return "Jesteś ty i ty w sytemie. Wiadomość ulegnie samozniszczeniu... "
 
     return render_template("form_example.html")
 

@@ -15,7 +15,7 @@ def login():
         if username == user['username'] and password == user["password"]:
             return "Jesteś w sytemie. Wiadomość ulegnie samozniszczeniu... "
 
-    return render_template("form_example.html")
+    return render_template("login.html")
 
 
 if __name__ == "__main__":
